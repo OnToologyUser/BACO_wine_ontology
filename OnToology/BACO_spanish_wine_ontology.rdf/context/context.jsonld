@@ -1,0 +1,219 @@
+{
+  "@context" : {
+    "entityName" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#entityName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "winePrice" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#winePrice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "NumberOfReviews" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#NumberOfReviews"
+    },
+    "HighRatedWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#HighRatedWine"
+    },
+    "WineType" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#WineType"
+    },
+    "Winery" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Winery"
+    },
+    "regionName" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#regionName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Fish" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Fish"
+    },
+    "license" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#license"
+    },
+    "Expensive" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Expensive"
+    },
+    "Food" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Food"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "isRuleEnabled" : {
+      "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"
+    },
+    "wineReviews" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#wineReviews",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "typeName" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#typeName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Body" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Body"
+    },
+    "producedBy" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#producedBy",
+      "@type" : "@id"
+    },
+    "wineBody" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#wineBody"
+    },
+    "Pricy" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Pricy"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "wineVintage" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#wineVintage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "UnderFortyReviewsWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#UnderFortyReviewsWine"
+    },
+    "Pairing" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Pairing"
+    },
+    "CompleteBodyWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#CompleteBodyWine"
+    },
+    "hasVariety" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#hasVariety",
+      "@type" : "@id"
+    },
+    "Price" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Price"
+    },
+    "grapeVarietyName" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#grapeVarietyName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#hasWine",
+      "@type" : "@id"
+    },
+    "foodName" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#foodName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "producedIn" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#producedIn",
+      "@type" : "@id"
+    },
+    "hasWineType" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#hasWineType",
+      "@type" : "@id"
+    },
+    "makes" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#makes",
+      "@type" : "@id"
+    },
+    "wineryName" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#wineryName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "LowAcidityWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#LowAcidityWine"
+    },
+    "Salmon" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Salmon"
+    },
+    "allocateWinery" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#allocateWinery",
+      "@type" : "@id"
+    },
+    "wineRating" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#wineRating"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Rating"
+    },
+    "RedMeat" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#RedMeat"
+    },
+    "producesIn" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#producesIn",
+      "@type" : "@id"
+    },
+    "ExpensiveWineRegion" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#ExpensiveWineRegion"
+    },
+    "HighAcidityWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#HighAcidityWine"
+    },
+    "wineAcidity" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#wineAcidity"
+    },
+    "Acidity" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Acidity"
+    },
+    "MediumBodyWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#MediumBodyWine"
+    },
+    "licenseDocument" : {
+      "@id" : "http://purl.org/dc/terms/licenseDocument"
+    },
+    "WineEntity" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#WineEntity"
+    },
+    "wineName" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#wineName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "WinePairedWithRedMeat" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#WinePairedWithRedMeat"
+    },
+    "isPairedWith" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#isPairedWith",
+      "@type" : "@id"
+    },
+    "WinePairedWithSalmon" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#WinePairedWithSalmon"
+    },
+    "VeryHighRatedWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#VeryHighRatedWine"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "LightBodyWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#LightBodyWine"
+    },
+    "allocateWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#allocateWine",
+      "@type" : "@id"
+    },
+    "SeaFood" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#SeaFood"
+    },
+    "Region" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Region"
+    },
+    "Economic" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Economic"
+    },
+    "OverTenThousendReviewsWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#OverTenThousendReviewsWine"
+    },
+    "GrapeVariety" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#GrapeVariety"
+    },
+    "varietyHasWine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#varietyHasWine",
+      "@type" : "@id"
+    },
+    "pairsWith" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#pairsWith",
+      "@type" : "@id"
+    },
+    "Wine" : {
+      "@id" : "http://www.semanticweb.org/ontology/baco-spanish-wine-ontology#Wine"
+    }
+  }
+}
